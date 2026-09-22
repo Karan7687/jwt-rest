@@ -21,7 +21,7 @@ public class AuthController {
 
         return ResponseEntity
                 .status(201)
-                .body(authService.register(request.getUsername()));
+                .body(authService.register(request));
 
     }
 }
