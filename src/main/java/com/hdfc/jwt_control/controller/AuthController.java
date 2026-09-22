@@ -3,7 +3,9 @@ package com.hdfc.jwt_control.controller;
 import com.hdfc.jwt_control.model.RegisterRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class AuthController {
 
 
